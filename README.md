@@ -20,4 +20,4 @@ Tech Stack: HTML, CSS, JavaScript, Express.js, Handlebars (template engine), Boo
 
 ![screen shot 2016-12-12 at 12 04 37 pm](https://cloud.githubusercontent.com/assets/17756792/21108970/12e7c622-c065-11e6-8fc7-24299f3eef28.png)
 
-![screen shot 2016-12-12 at 12 05 17 pm](https://cloud.githubusercontent.com/assets/17756792/21108983/1d6a557e-c065-11e6-88a1-07da32b80310.png)
+![screen shot 2016-12-12 at 12 25 33 pm](https://cloud.githubusercontent.com/assets/17756792/21109242/2481ad70-c066-11e6-9b93-c1c86d5547ea.png)
