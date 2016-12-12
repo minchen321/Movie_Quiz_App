@@ -2,7 +2,7 @@
 
 MovieQuizApp is a Node.js web application with responsive front-end design. 
 
-The users need to correctly answer at least one question in order to join the Brad Pitt's Fan Club.
+The users need to take a quiz in order to join the Brad Pitt's Fan Club.
 After the user answers the question, it will transition to a results screen. 
 
 Tech Stack: HTML, CSS, JavaScript, Express.js, Handlebars (template engine), Bootstrap
