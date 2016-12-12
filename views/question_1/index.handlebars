@@ -1,0 +1,48 @@
+<section>
+
+        <div class="carousel-inner">
+                <div class="container">
+
+                    <div class="vertical-middle">
+                        <div class="vertical-middle-inner">
+
+                            <div class="text-center">
+                              <br>
+                              <br>
+                              <br>
+                              <br>
+                              <br>
+                                <!-- <h2 class="page-header">Q:</h2> -->
+                                <div class="col-sm-offset-3 col-sm-6">
+                                  <div class="animated rollOut" id='q1_img'>
+                                    <img class='img-responsive' src ="{{movieData.backdrop_path}}">
+                                  </div>
+                                  <div class ='animated bounceInLeft' id='q1'>
+                                    <h2>Which of the following movies is the image from?</h2>
+                                  </div>
+                                      <div class="radio">
+                                        <label for="radios-0"><input name='question_1' type="radio" value="A">A. {{movieData.original_title}}</label>
+                                      </div>
+                                      <div class="radio">
+                                        <labelfor="radios-1"><input name='question_1' type="radio" value="B">B. {{movieData.original_title_3}}</label>
+                                      </div>
+                                      <div class="radio">
+                                        <label for="radios-2"><input name='question_1' type="radio" value="C">C. {{movieData.original_title_2}}</label>
+                                      </div>
+
+                                      <input type="button" onclick="jump()" class="btn btn-lg btn-transparent" value="Submit">
+
+                                </div>
+                            </div>
+                            <!-- text-center -->
+
+                            <br>
+                            <br>
+                            <br>
+
+                    </div>
+                </div>
+            </div>
+            <!-- container -->
+        </div>
+</section>

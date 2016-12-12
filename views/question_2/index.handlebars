@@ -1,0 +1,39 @@
+<section id="welcome-page">
+
+
+        <div class="carousel-inner">
+                <div class="container">
+
+                    <div class="vertical-middle">
+                        <div class="vertical-middle-inner">
+                            <div class="text-center">
+
+                              <div class="col-sm-offset-4 col-sm-6">
+                                <img class='img-responsive' id="q2_img" src ="{{movieData.poster_path_2}}">
+                              </div>
+                                <div class="col-sm-offset-3 col-sm-6">
+                                  <h2>Which of the followings is the best description of the above movie?</h2>
+                                    <div class="radio">
+                                        <label for="radios-0" ><input name='question_2' type="radio" value="A">A. {{movieData.overview}}</label>
+                                    </div>
+                                    <div class="radio">
+                                        <label for="radios-1"><input name='question_2' type="radio" value="B">B. {{movieData.overview_3}}</label>
+                                    </div>
+                                    <div class="radio">
+                                        <label for="radios-2"><input name='question_2' type="radio" value="C">C. {{movieData.overview_2}}</label>
+                                    </div>
+                                    <input type="button" onclick="jump()" class="btn btn-lg btn-transparent" value="Submit">
+                              </div>
+
+                            </div>  <!-- text-center -->
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                    </div>
+                </div>
+            </div>
+            <!-- container -->
+        </div>
+</section>
